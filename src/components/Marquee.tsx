@@ -9,7 +9,7 @@ const Marquee = ({ texts }) => {
         animate={{ x: ["0%", "-100%"] }}
         transition={{
           ease: "linear",
-          duration: 120,
+          duration: 130,
           repeat: Infinity
         }}
         style={{ display: "flex", minWidth: "max-content" }}
