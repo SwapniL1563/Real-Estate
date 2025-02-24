@@ -33,3 +33,18 @@ body,html{
 h1{
   font-weight: 500;
 }
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.marquee {
+  display: inline-block;
+  min-width: 100%;
+  position: absolute;
+  white-space: nowrap;
+}

@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Hamburger Menu */}
       <button
-        className="block z-10 md:hidden"
+        className="block z-50 md:hidden"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle Menu"
       >
@@ -66,7 +66,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute w-full md:w-1/2 h-full top-0 right-0 bg-secondary text-[2.5rem] md:text-[4vw] shadow-lg  p-4 flex gap-0 md:gap-14 flex-col items-start pl-[20vw] md:pl-[10vw] justify-center transition-all ease-in-out">
+        <div className="z-40 absolute w-full md:w-1/2 h-full top-0 right-0 bg-secondary text-[2.5rem] md:text-[4vw] shadow-lg  p-4 flex gap-0 md:gap-14 flex-col items-start pl-[20vw] md:pl-[10vw] justify-center transition-all ease-in-out">
           {[
             { name: "Home", path: "/" },
             { name: "Properties", path: "/properties" },
