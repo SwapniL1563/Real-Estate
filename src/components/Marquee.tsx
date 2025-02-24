@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Marquee = ({ texts }) => {
   return (
-    <div className="overflow-hidden whitespace-nowrap w-full bg-primary text-white py-4 relative flex">
+    <div className="overflow-hidden whitespace-nowrap w-full bg-primary text-white py-2  md:py-4 relative flex">
       <motion.div
         className="flex gap-8"
         animate={{ x: ["0%", "-100%"] }}
@@ -15,7 +15,7 @@ const Marquee = ({ texts }) => {
         style={{ display: "flex", minWidth: "max-content" }}
       >
         {[...texts, ...texts].map((text, index) => (
-          <span key={index} className="text-lg font-semibold px-4">
+          <span key={index} className="md:text-lg font-semibold px-4">
            {text} 
           </span>
         ))}
