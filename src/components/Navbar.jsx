@@ -32,7 +32,7 @@ const Navbar = () => {
           <path d="M8 7h.01" />
           <rect x="4" y="2" width="16" height="20" rx="2" />
         </svg>
-        <h1 className="text-xl">Luxstate</h1>
+        <h1 className="text-xl">Elite Homes</h1>
       </Link>
 
       {/* Hamburger Menu */}

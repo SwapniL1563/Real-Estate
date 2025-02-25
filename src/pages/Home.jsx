@@ -3,6 +3,8 @@ import Button from '../components/Button'
 import Marquee from '../components/Marquee'
 import ScrollDownIndicator from '../components/ScrollDown'
 import Properties from './Properties'
+import About from './About'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -23,7 +25,9 @@ const Home = () => {
         <ScrollDownIndicator/>
         </div>
     </div>
+    <About/>
     <Properties/>
+    <Contact/>
     </>
   )
 }

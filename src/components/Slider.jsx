@@ -23,7 +23,7 @@ const ImageSlider = () => {
   return (
     <div className="flex flex-col md:items-end items-center gap-5 relative">
       <div className="absolute hidden   top-[40%] md:left-[11vw] md:top-[30%] text-black z-10 gap-3 md:flex flex-col ">
-      <h1 className="md:text-5xl text-lg"> Moon In <br /> Residence</h1>
+      <h1 className="md:text-5xl text-lg">Premium <br /> Residence</h1>
       <p className="text-gray-800 md:text-base text-xs">438 North 700 West <br /> Salt Lake City , Utah 84110</p>
       </div>
       <div className="flex overflow-hidden w-[80vw] md:w-[1100px]">
