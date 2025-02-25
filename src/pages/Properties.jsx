@@ -8,7 +8,7 @@ const Properties = () => {
         <h1 className='md:text-lg text-sm'>Best Collection On Sale</h1>
       </div>
       <ImageSlider/>
-      </div>
+    </div>
   )
 }
 

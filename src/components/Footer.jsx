@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-secondary text-white border-t-[1px] border-gray-500 py-10 px-8 md:px-20  flex flex-col md:flex-row justify-between items-start">
+    <footer className="w-full bg-secondary text-white border-t-[1px] border-gray-500 py-14 px-8 md:px-20  flex flex-col md:flex-row justify-between items-start">
        <div className="text-start flex flex-col md:flex justify-center items-start  md:w-1/2 ">
        <Link to="/" className="flex items-center justify-center gap-1 font-bold text-white mb-2">
         <svg
@@ -37,13 +37,13 @@ const Footer = () => {
        <div className="flex flex-col md:flex-row md:items-center items-start  gap-4 mt-6 sm:mt-0">
           <div className=" sm:text-left">
             <h3 className="text-sm text-gray-500 mb-2">Office</h3>
-            <p className='text-sm'>(406) 123-3131</p>
-            <p className='text-sm'>st. Tiara Andini, 04, Usai, 02000</p>
+            <p className='text-sm'>(406) 123-321</p>
+            <p className='text-sm'>st.Louis - 40024</p>
           </div>
           <div className=" sm:text-left">
             <h3 className="text-sm text-gray-500 mb-2">Phone / Email</h3>
-            <p className='text-sm'>(406) 777-9280</p>
-            <p className='text-sm'>hello@realestate.com</p>
+            <p className='text-sm'>3524667</p>
+            <p className='text-sm'>new@realestate.com</p>
           </div>
         </div>
       </footer>
