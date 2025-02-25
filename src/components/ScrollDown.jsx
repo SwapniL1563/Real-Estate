@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const ScrollDownIndicator = () => {
   return (
-    <div className="relative flex items-center justify-center w-28 h-28  md:w-32 md:h-32">
+    <div className="relative flex items-center justify-center  w-[5.35rem] h-[5.35rem]  md:w-32 md:h-32">
       {/* Rotating Circular Text */}
       <motion.div
         className="absolute w-full h-full"
@@ -27,7 +27,7 @@ const ScrollDownIndicator = () => {
       </motion.div>
       {/* Center Arrow */}
       <motion.div
-        className="absolute bg-primary px-6 py-6 rounded-full border-1 border-bl"
+        className="absolute bg-primary px-2 py-2 md:px-6 md:py-6 rounded-full border-1 border-bl"
       >
         <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 16L6 10H18L12 16Z" fill="white" />
